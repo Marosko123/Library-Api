@@ -1,6 +1,6 @@
-const reservationsDAO = require('../dao/reservationsDAO');
-const usersDAO = require('../dao/usersDAO');
-const publicationsDAO = require('../dao/publicationsDAO');
+const reservationsDAO = require('../dao/reservations_DAO');
+const usersDAO = require('../dao/users_DAO');
+const publicationsDAO = require('../dao/publications_DAO');
 const validator = require('../common/validator');
 
 class ReservationsService {

@@ -1,4 +1,4 @@
-const authorsService = require('../service/authorsService');
+const authorsService = require('../service/authors_service');
 
 class AuthorsController {
 	async getAuthor(req, res) {

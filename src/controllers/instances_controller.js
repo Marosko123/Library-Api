@@ -1,4 +1,4 @@
-const instancesService = require('../service/instancesService');
+const instancesService = require('../service/instances_service');
 
 class InstancesController {
 	async getInstance(req, res) {

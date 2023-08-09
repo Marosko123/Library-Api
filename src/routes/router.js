@@ -1,12 +1,12 @@
 const express = require('express');
-const UsersController = require('../controllers/usersController');
-const PublicationsController = require('../controllers/publicationsController');
-const CategoriesController = require('../controllers/categoriesController');
-const AuthorsController = require('../controllers/authorsController');
-const CardsController = require('../controllers/cardsController');
-const InstancesController = require('../controllers/instancesController');
-const RentalsController = require('../controllers/rentalsController');
-const ReservationsController = require('../controllers/reservationsController');
+const UsersController = require('../controllers/users_controller');
+const PublicationsController = require('../controllers/publications_controller');
+const CategoriesController = require('../controllers/categories_controller');
+const AuthorsController = require('../controllers/authors_controller');
+const CardsController = require('../controllers/cards_controller');
+const InstancesController = require('../controllers/instances_controller');
+const RentalsController = require('../controllers/rentals_controller');
+const ReservationsController = require('../controllers/reservations_controller');
 
 const router = express.Router();
 

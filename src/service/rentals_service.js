@@ -1,8 +1,8 @@
-const rentalsDAO = require('../dao/rentalsDAO');
-const usersDAO = require('../dao/usersDAO');
-const reservationsDAO = require('../dao/reservationsDAO');
-const publicationsDAO = require('../dao/publicationsDAO');
-const instancesDAO = require('../dao/instancesDAO');
+const rentalsDAO = require('../dao/rentals_DAO');
+const usersDAO = require('../dao/users_DAO');
+const reservationsDAO = require('../dao/reservations_DAO');
+const publicationsDAO = require('../dao/publications_DAO');
+const instancesDAO = require('../dao/instances_DAO');
 const validator = require('../common/validator');
 
 class RentalsService {

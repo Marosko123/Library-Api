@@ -1,4 +1,4 @@
-const categoriesDAO = require('../dao/categoriesDAO');
+const categoriesDAO = require('../dao/categories_DAO');
 const validator = require('../common/validator');
 
 class CategoriesService {

@@ -1,4 +1,4 @@
-const publicationsService = require('../service/publicationsService');
+const publicationsService = require('../service/publications_service');
 
 class PublicationsController {
 	async getPublication(req, res) {

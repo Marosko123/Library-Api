@@ -1,5 +1,5 @@
-const authorsDAO = require('../dao/authorsDAO');
-const publicationsAuthorsDAO = require('../dao/publicationsAuthorsDAO');
+const authorsDAO = require('../dao/authors_DAO');
+const publicationsAuthorsDAO = require('../dao/publications_authors_DAO');
 const { v4: uuidv4 } = require('uuid');
 
 class PublicationsAuthorsService {

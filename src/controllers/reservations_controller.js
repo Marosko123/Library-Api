@@ -1,4 +1,4 @@
-const reservationsService = require('../service/reservationsService');
+const reservationsService = require('../service/reservations_service');
 
 class ReservationsController {
 	async getReservation(req, res) {

@@ -1,5 +1,3 @@
-# Maros Bednar
-# stage 1 building the code
 FROM node:14
 
 WORKDIR /usr/src/app

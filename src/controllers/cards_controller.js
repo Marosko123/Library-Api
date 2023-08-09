@@ -1,4 +1,4 @@
-const cardsService = require('../service/cardsService');
+const cardsService = require('../service/cards_service');
 
 class CardsController {
 	async getCard(req, res) {

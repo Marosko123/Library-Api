@@ -1,11 +1,11 @@
-const publicationsDAO = require('../dao/publicationsDAO');
+const publicationsDAO = require('../dao/publications_DAO');
 const validator = require('../common/validator');
-const publicationsAuthorsDAO = require('../dao/publicationsAuthorsDAO');
-const publicationsCategoriesDAO = require('../dao/publicationsCategoriesDAO');
-const publicationsAuthorsService = require('./publicationsAuthorsService');
-const publicationsCategoriesService = require('./publicationsCategoriesService');
-const authorsService = require('./authorsService');
-const categoriesService = require('./categoriesService');
+const publicationsAuthorsDAO = require('../dao/publications_authors_DAO');
+const publicationsCategoriesDAO = require('../dao/publications_categories_DAO');
+const publicationsAuthorsService = require('./publications_authors_service');
+const publicationsCategoriesService = require('./publications_categories_service');
+const authorsService = require('./authors_service');
+const categoriesService = require('./categories_service');
 
 class PublicationsService {
 	async getPublication(id) {

@@ -1,6 +1,6 @@
-const cardsDAO = require('../dao/cardsDAO');
+const cardsDAO = require('../dao/cards_DAO');
 const validator = require('../common/validator');
-const usersDAO = require('../dao/usersDAO');
+const usersDAO = require('../dao/users_DAO');
 
 class CardsService {
 	async getCard(id) {

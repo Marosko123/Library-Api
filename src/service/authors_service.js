@@ -1,4 +1,4 @@
-const authorsDAO = require('../dao/authorsDAO');
+const authorsDAO = require('../dao/authors_DAO');
 const validator = require('../common/validator');
 
 class AuthorsService {

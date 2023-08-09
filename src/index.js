@@ -1,6 +1,6 @@
 const express = require('express');
 const router = require('./routes/router');
-const migrateTables = require('./environmentScripts/migrateTables');
+const migrateTables = require('./environment_scripts/migrate_tables');
 
 const port = 8000;
 const app = express();

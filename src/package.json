@@ -1,14 +1,14 @@
 {
   "name": "dbs-assignment-5",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create-migration": "node ./environmentScripts/createMigration.js",
-    "drop-tables": "node ./environmentScripts/dropTables.js",
-    "migrate-tables": "node ./environmentScripts/migrateTables.js",
+    "create-migration": "node ./environment_scripts/create_migration.js",
+    "drop-tables": "node ./environment_scripts/drop_tables.js",
+    "migrate-tables": "node ./environment_scripts/migrate_tables.js",
     "dev": "nodemon index.js",
-    "build-all": "node ./environmentScripts/buildAll.js"
+    "build-all": "node ./environment_scripts/build_all.js"
   },
   "keywords": [],
   "author": "Maros Bednar",

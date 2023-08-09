@@ -1,4 +1,4 @@
-const categoriesService = require('../service/categoriesService');
+const categoriesService = require('../service/categories_service');
 
 class CategoriesController {
 	async getCategory(req, res) {

@@ -1,8 +1,8 @@
-const usersDAO = require('../dao/usersDAO');
+const usersDAO = require('../dao/users_DAO');
 const validator = require('../common/validator');
 const converter = require('../common/converter');
-const rentalsDAO = require('../dao/rentalsDAO');
-const reservationsDAO = require('../dao/reservationsDAO');
+const rentalsDAO = require('../dao/rentals_DAO');
+const reservationsDAO = require('../dao/reservations_DAO');
 
 class UsersService {
 	async getUser(id) {

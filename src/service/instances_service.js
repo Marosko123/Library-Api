@@ -1,5 +1,5 @@
-const instancesDAO = require('../dao/instancesDAO');
-const publicationsDAO = require('../dao/publicationsDAO');
+const instancesDAO = require('../dao/instances_DAO');
+const publicationsDAO = require('../dao/publications_DAO');
 const validator = require('../common/validator');
 
 class InstancesService {
