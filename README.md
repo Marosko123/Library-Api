@@ -78,5 +78,5 @@ bude nachádzať v AIS odovzdaní a aj v samotnom github repozitári.
 ## Vytvorenie databazy
 
 ```powershell
-npx knex migrate:latest --knexfile ./db/knexfile.js
+npx knex migrate:latest --knexfile ./src/db/knexfile.js
 ```

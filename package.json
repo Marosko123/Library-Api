@@ -1,0 +1,33 @@
+{
+  "name": "dbs-assignment-5",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-migration": "node ./src/environment_scripts/create_migration.js",
+    "drop-tables": "node ./src/environment_scripts/drop_tables.js",
+    "migrate-tables": "node ./src/environment_scripts/migrate_tables.js",
+    "dev": "nodemon --esm src/index.ts",
+    "build-all": "node ./src/environment_scripts/build_all.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Maros Bednar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/readline-sync": "^1.4.4",
+    "@types/uuid": "^9.0.2",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "pg": "^8.10.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
